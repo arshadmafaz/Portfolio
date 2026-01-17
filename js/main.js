@@ -73,4 +73,39 @@ document.addEventListener('DOMContentLoaded', () => {
     });
 
     console.log("Portfolio loaded successfully.");
+
+    // Contact Form Handling
+    const contactForm = document.querySelector('.contact-form');
+    const iframe = document.getElementById('hidden_iframe');
+    const messageDiv = document.getElementById('form-message');
+    let isFormSubmitted = false;
+
+    if (contactForm && iframe) {
+        contactForm.addEventListener('submit', () => {
+            const btn = contactForm.querySelector('button');
+            const originalText = btn.textContent;
+            btn.textContent = 'Sending...';
+            btn.disabled = true;
+            isFormSubmitted = true;
+        });
+
+        iframe.addEventListener('load', () => {
+            if (isFormSubmitted) {
+                const btn = contactForm.querySelector('button');
+                contactForm.reset();
+                btn.textContent = 'Send Message';
+                btn.disabled = false;
+
+                if (messageDiv) {
+                    messageDiv.textContent = 'Your message has been sent. We will get back to you soon!';
+                    messageDiv.style.display = 'block';
+                    // Auto hide after 5 seconds
+                    setTimeout(() => {
+                        messageDiv.style.display = 'none';
+                    }, 5000);
+                }
+                isFormSubmitted = false;
+            }
+        });
+    }
 });
