@@ -284,7 +284,7 @@ nav {
 /* About Section */
 .about-content {
     background: var(--glass-bg);
-    padding: 3rem;
+    padding: 3rem 3rem 3rem 4rem;
     border-radius: 20px;
     border: 1px solid var(--glass-border);
     box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
@@ -292,7 +292,41 @@ nav {
 
 /* Improve paragraph spacing inside About section */
 .about-content p {
-    margin-bottom: 1.2rem;
+    margin-bottom: 1.4rem;
+    color: var(--text-muted);
+    font-size: 1.03rem;
+    line-height: 1.8;
+}
+
+/* Decorative accent bar on the left of about panel */
+.about-content::before {
+    content: '';
+    position: absolute;
+    left: 1rem;
+    top: 1.25rem;
+    bottom: 1.25rem;
+    width: 6px;
+    border-radius: 4px;
+    background: linear-gradient(180deg, var(--accent-color), #0ea5e9);
+    box-shadow: 0 6px 20px rgba(56,189,248,0.08);
+}
+
+/* Lead paragraph styling */
+.about-content p:first-of-type {
+    font-size: 1.12rem;
+    color: var(--text-light);
+    font-weight: 600;
+    margin-bottom: 1.6rem;
+}
+
+/* Highlight block treatment */
+.about-content .highlight-text {
+    background: rgba(56, 189, 248, 0.06);
+    padding: 1rem 1.2rem;
+    border-radius: 10px;
+    margin-top: 0.8rem;
+    border-left: 4px solid var(--accent-color);
+    color: var(--white);
 }
 
 /* Skills Section */
