@@ -123,7 +123,7 @@ section {
     display: block;
     width: 80px;
     height: 4px;
-    background: var(--accent-color);
+    background: transparent;
     margin: 1rem auto 0;
     border-radius: 2px;
 }
@@ -308,8 +308,7 @@ nav {
     bottom: 1.25rem;
     width: 6px;
     border-radius: 4px;
-    background: linear-gradient(180deg, var(--accent-color), #0ea5e9);
-    box-shadow: 0 6px 20px rgba(56,189,248,0.08);
+    display: none;
 }
 
 /* Lead paragraph styling */
@@ -326,7 +325,7 @@ nav {
     padding: 1rem 1.2rem;
     border-radius: 10px;
     margin-top: 0.8rem;
-    border-left: 4px solid var(--accent-color);
+    border-left: none;
     color: var(--white);
 }
 
@@ -334,7 +333,7 @@ nav {
 .section-divider {
     width: 80px;
     height: 3px;
-    background: #27b6ff;
+    display: none;
     margin: 35px auto;
     border-radius: 3px;
 }
@@ -343,7 +342,7 @@ nav {
     background: rgba(39,182,255,0.06);
     padding: 1rem;
     border-radius: 8px;
-    border-left: 4px solid #27b6ff;
+    border-left: none;
     color: var(--white);
 }
 
