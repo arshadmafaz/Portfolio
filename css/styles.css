@@ -401,6 +401,66 @@ nav {
     line-height: 1.8;
 }
 
+/* Consultant / Why hire section */
+#why-consultant {
+    padding: 80px 0;
+}
+
+.section-intro {
+    max-width: 900px;
+    margin: 0 auto 40px auto;
+    text-align: center;
+    line-height: 1.8;
+}
+
+.consultant-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 25px;
+    margin-top: 40px;
+}
+
+.consultant-card {
+    padding: 25px;
+    border-radius: 12px;
+    background: rgba(255,255,255,0.03);
+    border: 1px solid rgba(39,182,255,0.15);
+    transition: 0.3s ease;
+}
+
+.consultant-card:hover {
+    transform: translateY(-5px);
+    border-color: #27b6ff;
+}
+
+.consultant-icon {
+    font-size: 2rem;
+    margin-bottom: 15px;
+}
+
+.consultant-card h3 {
+    margin-bottom: 12px;
+    color: #27b6ff;
+}
+
+.consultant-card p {
+    line-height: 1.7;
+}
+
+.consultant-quote {
+    margin-top: 50px;
+    padding: 25px;
+    border-left: 4px solid #27b6ff;
+    background: rgba(39,182,255,0.05);
+    border-radius: 8px;
+}
+
+.consultant-quote p {
+    margin: 0;
+    font-size: 1.1rem;
+    line-height: 1.8;
+}
+
 /* Skills Section */
 .skills-grid {
     display: grid;
