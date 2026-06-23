@@ -353,6 +353,13 @@ nav {
     gap: 2rem;
 }
 
+/* Full-width skill card that sits centered below the main grid */
+.skills-grid .skill-card.full-width {
+    grid-column: 1 / -1;
+    justify-self: center;
+    max-width: 900px;
+}
+
 .skill-card {
     background: var(--secondary-color);
     padding: 2rem;
