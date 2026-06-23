@@ -408,6 +408,21 @@ nav {
     transition: var(--transition);
     text-align: center;
 }
+    .work-card {
+        background: var(--secondary-color);
+        padding: 2.5rem;
+        border-radius: 15px;
+        border: 1px solid var(--glass-border);
+        transition: var(--transition);
+    }
+    .work-card h3 {
+        margin-bottom: 1rem;
+        color: var(--accent-color);
+    }
+    .work-card .icon {
+        font-size: 1.6rem;
+        margin-bottom: 0.8rem;
+    }
 
 .service-card:hover {
     background: var(--card-hover);
