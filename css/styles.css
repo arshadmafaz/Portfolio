@@ -254,6 +254,10 @@ nav {
     max-width: 500px;
 }
 
+.hero-text p.reduced-margin {
+    margin-bottom: 0.8rem;
+}
+
 .hero-img-styled {
     width: 100%;
     max-width: 600px;
