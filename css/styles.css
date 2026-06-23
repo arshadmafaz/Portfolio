@@ -290,6 +290,11 @@ nav {
     box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
 }
 
+/* Improve paragraph spacing inside About section */
+.about-content p {
+    margin-bottom: 1.2rem;
+}
+
 /* Skills Section */
 .skills-grid {
     display: grid;
