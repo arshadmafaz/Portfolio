@@ -475,6 +475,19 @@ nav {
     gap: 2rem;
 }
 
+/* Row that holds two related skill cards side-by-side (e.g. Leadership + Data Architecture) */
+.skill-row {
+    grid-column: 1 / -1; /* span the full grid width */
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+    gap: 1.5rem;
+    align-items: start;
+}
+.skill-row .skill-card {
+    max-width: none;
+    margin: 0;
+}
+
 /* Full-width skill card that sits centered below the main grid */
 .skills-grid .skill-card.full-width {
     grid-column: 1 / -1;
