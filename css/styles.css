@@ -389,6 +389,18 @@ nav {
     border-left: 4px solid var(--accent-color);
 }
 
+/* About list styling (centered within About area) */
+.about-list {
+    max-width: 900px;
+    margin: 0 auto;
+    padding-left: 20px;
+}
+
+.about-list li {
+    margin-bottom: 15px;
+    line-height: 1.8;
+}
+
 /* Skills Section */
 .skills-grid {
     display: grid;
