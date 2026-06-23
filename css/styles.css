@@ -415,8 +415,8 @@ nav {
 
 .consultant-grid {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
-    gap: 25px;
+    grid-template-columns: 1fr; /* one card per row */
+    row-gap: 30px;
     margin-top: 40px;
 }
 
@@ -426,6 +426,8 @@ nav {
     background: rgba(255,255,255,0.03);
     border: 1px solid rgba(39,182,255,0.15);
     transition: 0.3s ease;
+    max-width: 900px; /* wider cards */
+    margin: 0 auto;   /* center each card */
 }
 
 .consultant-card:hover {
