@@ -463,6 +463,11 @@ nav {
     line-height: 1.8;
 }
 
+/* Larger gap and same heading styling for why-consultant */
+#why-consultant .section-title {
+    margin-bottom: 5rem; /* slightly larger gap to separate heading from cards */
+}
+
 /* Skills Section */
 .skills-grid {
     display: grid;
