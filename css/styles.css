@@ -572,7 +572,8 @@ nav {
     transform: translateY(-5px);
 }
 
-.service-card .icon {
+.service-card .icon,
+.service-card .service-icon {
     font-size: 3rem;
     margin-bottom: 1.5rem;
 }
