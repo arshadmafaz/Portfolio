@@ -589,6 +589,14 @@ nav {
     margin-bottom: 1.5rem;
 }
 
+/* Center a specific service-card across the grid */
+.service-card.center-card {
+    grid-column: 1 / -1;
+    justify-self: center;
+    max-width: 760px;
+    text-align: center;
+}
+
 /* Projects */
 .projects-grid {
     display: grid;
