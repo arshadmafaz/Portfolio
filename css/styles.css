@@ -468,6 +468,17 @@ nav {
     margin-bottom: 5rem; /* slightly larger gap to separate heading from cards */
 }
 
+/* Larger gap for Consulting Services header */
+#services .section-title {
+    /* ensure the header is centered and uses the same size as other sections */
+    display: block;
+    text-align: center;
+    font-size: 2.5rem;
+    margin: 0 0 8rem; /* larger gap before next element */
+    left: auto !important;
+    transform: none !important;
+}
+
 /* Skills Section */
 .skills-grid {
     display: grid;
