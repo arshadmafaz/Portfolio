@@ -433,6 +433,86 @@ nav {
 
 }
 
+/* Consulting Capabilities */
+
+/*=================================================
+ CONSULTING CAPABILITIES
+=================================================*/
+
+#capabilities{
+
+    padding:100px 0;
+
+}
+
+.capability-grid{
+
+    display:grid;
+
+    grid-template-columns:repeat(auto-fit,minmax(340px,1fr));
+
+    gap:30px;
+
+}
+
+.capability-card{
+
+    background:#182238;
+
+    border:1px solid rgba(39,182,255,.25);
+
+    border-radius:14px;
+
+    padding:30px;
+
+    transition:.35s;
+
+}
+
+.capability-card:hover{
+
+    transform:translateY(-6px);
+
+    border-color:#27b6ff;
+
+    box-shadow:0 10px 30px rgba(39,182,255,.15);
+
+}
+
+.capability-card i{
+
+    font-size:38px;
+
+    color:#27b6ff;
+
+    margin-bottom:18px;
+
+}
+
+.capability-card h3{
+
+    color:#ffffff;
+
+    margin-bottom:20px;
+
+}
+
+.capability-card ul{
+
+    padding-left:18px;
+
+}
+
+.capability-card li{
+
+    color:#cfd9e5;
+
+    margin-bottom:12px;
+
+    line-height:1.6;
+
+}
+
 /* About Section */
 .about-content {
     background: var(--glass-bg);
