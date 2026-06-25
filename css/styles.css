@@ -283,6 +283,156 @@ nav {
     }
 }
 
+/*=================================================
+ BUSINESS CHALLENGES
+=================================================*/
+
+#business-challenges{
+
+    padding:100px 0;
+
+}
+
+.section-title{
+
+    text-align:center;
+
+    max-width:900px;
+
+    margin:auto;
+
+}
+
+.section-title h2{
+
+    font-size:21px;
+
+    margin-bottom:15px;
+
+}
+
+.title-line{
+
+    width:90px;
+
+    height:4px;
+
+    background:#27b6ff;
+
+    margin:0 auto 35px;
+
+    border-radius:5px;
+
+}
+
+.section-intro{
+
+    color:#c6d3df;
+
+    font-size:20px;
+
+    line-height:1.8;
+
+    margin-bottom:70px;
+
+}
+
+.challenge-grid{
+
+    display:grid;
+
+    grid-template-columns:repeat(auto-fit,minmax(350px,1fr));
+
+    gap:35px;
+
+}
+
+.challenge-card{
+
+    background:#182238;
+
+    border:1px solid rgba(39,182,255,.35);
+
+    border-radius:14px;
+
+    padding:35px;
+
+    transition:.35s;
+
+}
+
+.challenge-card:hover{
+
+    transform:translateY(-8px);
+
+    border-color:#27b6ff;
+
+    box-shadow:0 12px 35px rgba(39,182,255,.18);
+
+}
+
+.icon-circle{
+
+    width:78px;
+
+    height:78px;
+
+    border-radius:50%;
+
+    background:rgba(39,182,255,.12);
+
+    border:2px solid rgba(39,182,255,.45);
+
+    display:flex;
+
+    align-items:center;
+
+    justify-content:center;
+
+    margin-bottom:28px;
+
+}
+
+.icon-circle i{
+
+    font-size:34px;
+
+    color:#27b6ff;
+
+}
+
+.challenge-card h3{
+
+    color:#ffffff;
+
+    font-size:29px;
+
+    margin-bottom:5px;
+
+}
+
+.challenge-card h4{
+
+    color:#27b6ff;
+
+    font-size:20px;
+
+    margin-bottom:22px;
+
+    font-weight:600;
+
+}
+
+.challenge-card p{
+
+    color:#c7d2df;
+
+    line-height:1.8;
+
+    font-size:18px;
+
+}
+
 /* About Section */
 .about-content {
     background: var(--glass-bg);
